@@ -1,7 +1,7 @@
 {
   "scripts": {
     "start": "ts-node src/server.ts",
-    "build": "tsc && cp ./src/index.html ./dist",
+    "build": "tsc && cp -r ./src/public ./dist",
     "serve": "node dist/server.js"
   },
   "devDependencies": {
